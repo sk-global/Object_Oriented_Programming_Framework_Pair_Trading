@@ -29,4 +29,4 @@ asset1_position, asset2_position = Position(long_signal, short_signal).calculate
 asset1_returns, asset2_returns, portfolio_returns = Return_Calculator(asset1, asset1_position, asset2, asset2_position).calculate()
 
 View_Plot(tickers_list, asset1_returns, asset2_returns, portfolio_returns, \
-          "Long Short Pair Returns", "Total Returns", xrotation=45).plot_graph()
+          "Pair Trading Returns", "Total Returns", xrotation=45).plot_graph()
